@@ -2,17 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-/* IMPORTAMOS TANTO DynaPuff COMO DM Sans */
+/* IMPORTAMOS DynaPuff y DM Sans (ejemplo) */
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=DM+Sans:wght@400;700&display=swap');
 
-/* El body, menús, párrafos, etc. usarán DM Sans */
-body {
+html, body {
   margin: 0;
+  padding: 0;
   font-family: 'DM Sans', sans-serif;
+  scroll-behavior: smooth;
 }
 
-/* Los títulos usarán DynaPuff */
+/* Títulos con DynaPuff */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'DynaPuff', cursive;
-  margin: 0; /* por si querés resetear márgenes */
+  margin: 0;
 }
