@@ -1,6 +1,4 @@
-// app/components/Header.tsx
-'use client';  // Si planeás usar hooks (p.ej. useState), añade 'use client'
-
+/'use client';
 import Link from 'next/link';
 
 export default function Header() {
