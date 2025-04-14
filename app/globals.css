@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Podés agregar estilos globales extra:
+   Por ejemplo, ajustar body, tipografía, etc. */
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f9f9fb;
+}
