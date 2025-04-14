@@ -14,7 +14,7 @@ export default function Home() {
       </section>
 
       {/* SECCIÓN: POR QUÉ UNIRTE */}
-      <section className="space-y-6">
+      <section id="comienza" className="space-y-6">
         <h2 className="text-2xl font-bold text-orange-600">¿Por qué unirte?</h2>
         <ul className="list-disc list-inside text-gray-700 space-y-2">
           <li>
