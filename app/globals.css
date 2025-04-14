@@ -2,11 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Podés agregar estilos globales extra:
-   Por ejemplo, ajustar body, tipografía, etc. */
+/* IMPORTAMOS TANTO DynaPuff COMO DM Sans */
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=DM+Sans:wght@400;700&display=swap');
 
+/* El body, menús, párrafos, etc. usarán DM Sans */
 body {
   margin: 0;
-  font-family: sans-serif;
-  background-color: #f9f9fb;
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* Los títulos usarán DynaPuff */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'DynaPuff', cursive;
+  margin: 0; /* por si querés resetear márgenes */
 }
