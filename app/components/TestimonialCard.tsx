@@ -1,5 +1,3 @@
-// app/components/TestimonialCard.tsx
-
 interface Props {
   name: string;
   text: string;
