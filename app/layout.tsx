@@ -1,5 +1,3 @@
-// app/layout.tsx
-
 import './globals.css';       // Importamos Tailwind y estilos globales
 import { ReactNode } from 'react';
 import Header from './components/Header';
