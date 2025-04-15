@@ -1,10 +1,10 @@
-interface NivelPageProps {
+export default function Page({
+  params,
+}: {
   params: {
     nivel: string;
   };
-}
-
-export default function Page({ params }: NivelPageProps) {
+}) {
   const { nivel } = params;
 
   return (
